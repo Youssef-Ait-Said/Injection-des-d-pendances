@@ -17,9 +17,10 @@
     <h5>5. Faire l'injection des dépendances :</h5>
     <section>
         <h6>a. Par instanciation statique:</h6>
-            <p>Version de Base de Donnees</p>
+            <p>->Version de Base de Donnees</p>
                 <img src="src/main/captures/Pres_Bdd.png">
-            <p>Version de Web Services</p>
+            <p>->Version de Web Services</p>
                 <img src="src/main/captures/Pres_ws.png">
     </section>
 </div>
+->
