@@ -24,6 +24,8 @@
     </section>
     <section>
         <h6>b. Par instanciation dynamique:</h6>
+            <p style="color:green">Le fichier "config.txt":</p>
+                <img src="src/main/captures/Config_File_screenshot.png">
             <p>->Version de Base de Donnees</p>
                 <img src="src/main/captures/Pres_Bdd_dynamique.png">
             <p>->Version de Web Services</p>
