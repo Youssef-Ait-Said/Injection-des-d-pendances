@@ -18,8 +18,8 @@
     <section>
         <h6>a. Par instanciation statique:</h6>
             <p>Version de Base de Donnees</p>
-                <img src="captures/Pres_BDD.png">
+                <img src="src/main/captures/Pres_Bdd.png">
             <p>Version de Web Services</p>
-                <img src="captures/Pres_WS.png">
+                <img src="src/main/captures/Pres_ws.png">
     </section>
 </div>
