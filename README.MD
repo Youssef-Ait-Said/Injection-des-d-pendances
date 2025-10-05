@@ -22,5 +22,11 @@
             <p>->Version de Web Services</p>
                 <img src="src/main/captures/Pres_ws.png">
     </section>
+    <section>
+        <h6>b. Par instanciation dynamique:</h6>
+            <p>->Version de Base de Donnees</p>
+                <img src="src/main/captures/Pres_Bdd_dynamique.png">
+            <p>->Version de Web Services</p>
+                <img src="src/main/captures/Pres_ws_dynamique.png">
+    </section>
 </div>
-->
