@@ -31,4 +31,19 @@
             <p>->Version de Web Services</p>
                 <img src="src/main/captures/Pres_ws_dynamique.png">
     </section>
+    <h5>6. Faire l'injection des dépendances :</h5>
+    <section>
+        <h6>a. Par fichier "config.xml":</h6>
+            <p>->Version de Base de Donnees</p>
+                <img src="src/main/captures/PresXml_Bdd.png">
+            <p>->Version de Web Services</p>
+                <img src="src/main/captures/PresXml_ws.png">
+    </section>
+    <section>
+        <h6>b. Par annotation au lieu de .xml:</h6>
+            <p>->Version de Base de Donnees</p>
+                <img src="src/main/captures/PresAnn_Bdd.png">
+            <p>->Version de Web Services</p>
+                <img src="src/main/captures/PresAnn_ws.png">
+    </section>
 </div>

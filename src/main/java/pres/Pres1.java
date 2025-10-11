@@ -12,18 +12,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Pres1 {
 
     public static void main(String[] args) throws Exception {
- // methode par fichier config.xml:
-        ApplicationContext contex = new ClassPathXmlApplicationContext("config.xml");
 
-        IMetier metier =  (IMetier) contex.getBean("met"); // getBean() => prend comme parammetre  le id du bean qu on veurt creer.
-//        IDao dao = new DaoImpl();
-//        ImetierImpl metier = new ImetierImpl();
-//        metier.setDao(dao);add 
+        ApplicationContext context_Annot = new AnnotationConfigApplicationContext("dao", "metier");
+        IMetier metier = context_Annot.getBean(IMetier.class);
 
-        System.out.println("Resultat :" + metier.calcul());
-
-
-
+        System.out.println("Res = "+metier.calcul());
     }
 }
 

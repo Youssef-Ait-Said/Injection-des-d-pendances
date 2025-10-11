@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-        <bean id="d" class="dao.DaoImpl"></bean>
+        <bean id="d" class="dao.DaoImplV2"></bean>
         <bean id="met" class="metier.ImetierImpl">
             <property name="dao" ref="d"></property>
         </bean>
