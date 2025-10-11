@@ -41,6 +41,8 @@
     </section>
     <section>
         <h6>b. Par annotation au lieu de .xml:</h6>
+            <p>=> Fichier "config.xml" :</p>
+                <img src="src/main/captures/config_xml.png">
             <p>->Version de Base de Donnees</p>
                 <img src="src/main/captures/PresAnn_Bdd.png">
             <p>->Version de Web Services</p>
